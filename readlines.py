@@ -1,10 +1,7 @@
-fo = open("common_password_list.txt", "r+")
-lines = []
-stripped_lines = []
+with open("common_password_list.txt") as f:
 
-lines = fo.readlines()
+    lines = f.read().splitlines() 
 
-stripped_lines = s.strip('\n') for s in lines
 
 for line in lines:
-    print(lines)   
+    print(line)   
