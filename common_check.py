@@ -1,3 +1,4 @@
+# Individual password we want to test against common password list
 password = "1234 56789"
 # check to see if password is part of our common password list
 def common_check(input): 
