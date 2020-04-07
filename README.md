@@ -15,4 +15,8 @@ This validation script takes 3 parameters:
 
 `python password_validator.py input_passwords.txt weak_list.txt common_password_list.txt`
 
-# The process
+# Supportive scripts
+`ascii_check.py` - For testing ascii characters without running the entire process. 
+`common_check.py` - For checking an individual password against a common password list. 
+
+
